@@ -3,6 +3,11 @@ Company : Codtech IT solutions
 Id : CT6WTDS409
 Domain : Python Programming 
 Mentor : Muzammil
-overview of the project:
-Title:students grade tracker
-This basic structure can be expanded if you want more features like grade removal, multiple subjects, or sorting students based on their grades
+Overview of the project:
+Title : Student grade tracker 
+GradeTracker class manages student grades.
+add_student(name): Adds a new student if they don't already exist.
+add_grade(name, grade): Adds a grade to an existing student.
+calculate_average(name): Calculates the average grade for a student.
+display_grades(): Prints each student's grades and average.
+You can expand this code with more features such as removing students, handling different subjects, or saving/loading data from files as needed.
